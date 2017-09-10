@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	width:100%;
+	height:auto;
+	
+}
+#wrap
+{
+	width:1000px;
+	height:2500px;
+	margin:0 auto;
+	background:#FDFCE8;
+}
+header
+{
+	width:1000px;
+	height:auto;
+	float:left;
+	margin:0 0 0 0;
+}
+#logomenu
+{
+	width:1000px;
+	height:auto;
+	float:left;
+	position:fixed;
+	opacity:0.9;
+}
+#logo
+{
+	width:150px;
+	height:100px;
+	background:url(../Images/TCMC150100.jpg) no-repeat;
+	float:left;
+}
+#menu
+{
+	width:850px;
+	height:100Px;
+	float:left;
+}
+#menu a
+{
+	width:100px;
+	height:40Px;
+	text-decoration:none;
+	float:left;
+	padding:30px 0 0 5px;
+	color:#363636;
+	text-align:center;
+	transition:all 0.9s;
+	background:#D6F5DB;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size:14px;
+}
+#menu a:hover
+{
+	width:100px;
+	height:40Px;
+	text-decoration:none;
+	float:left;
+	padding:30px 0 0 5px;
+	color:#E8E8E8;
+	background:#3F3F3F;
+	text-align:center;
+	transition:all 0.9s;
+}
+#active
+{
+	width:100px;
+	height:40Px;
+	text-decoration:none;
+	float:left;
+	padding:30px 5px 0 5px;
+	color:#E8E8E8;
+	background:#3F3F3F;
+	text-align:center;
+}
+#headimg
+{
+	width:800px;
+	background:url(../Images/CelticFyre800.jpg) no-repeat;
+	height:400px;
+	margin:130px 0 0 100px;
+	float:left;
+}
+#mid
+{
+	width:970px;
+	height:auto;
+	float:left;
+	padding:10px 15px 10px 15px;
+	margin:20px 0 0 0;
+	font-size:16px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-align:justify;
+	border:#3E3E3E thin inset;
+	background:url(../Images/music.png) no-repeat;
+	
+}
+#support
+{
+	width:970px;
+	height:auto;
+	float:left;
+	padding:10px 15px 10px 15px;
+	margin:20px 0 0 0;
+	border:#3E3E3E thin inset;
+}
+#support img
+{
+	width:150px;
+	height:auto;
+	float:left;
+	margin:0 0 0 200px;
+}
+footer
+{
+width:1000px;
+height:150px;
+margin:20px 0 0 0;
+padding:20px 0 0 0;
+text-align:center;
+background:#292929;
+color:#E5E5E5;
+font-size:14px;
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+float:left;	
+}
+#addr
+{
+	width:400px;
+	height:auto;
+	float:right;
+	text-align:justify;
+	padding:0 10px 0 0;
+	margin:20px 0 0 0;
+}
